@@ -1,0 +1,139 @@
+    livro: 01
+nome: Controlando a ansiedade
+preço: 79,90
+url: https://go.hotmart.com/V81979249K
+
+    livro: 02
+nome: A Ansiedade e Eu
+preço: 37,00
+url: https://go.hotmart.com/X81978790Q?dp=1
+
+    livro: 03
+nome: A Luta no Luto
+preço: 39,99
+url: https://go.hotmart.com/F82093824V?dp=1
+
+    livro: 04
+nome: Ansiedade
+preço: 80,00
+url: https://go.hotmart.com/X81978654V?dp=1
+
+    livro: 05
+nome: Ansidade ao limite
+preço: 19,90
+url: https://go.hotmart.com/G81978772I?dp=1
+
+    livro: 06
+nome: Ansiedade e a Bíblia - O que as escrituras nos ensinam sobre a ansiedade
+preço: 24,90
+url: https://go.hotmart.com/S81978950U
+
+    livro: 07
+nome: Ansiedade e depressão
+preco: 14,50
+url: https://go.hotmart.com/T81979193X?dp=1
+
+    livro: 08
+nome: Ansiedade Infantil
+preco: 24.90
+url: https://go.hotmart.com/T81978371M?dp=1
+
+    livro: 09
+nome: Ansiedade Infantil - A caixa da Preocupação
+preco: 39.90
+url: https://go.hotmart.com/G81978528O?dp=1
+
+    livro: 10
+nome: Ansiedade sem Crises
+preco: 29.90
+url: https://go.hotmart.com/P81979176H?dp=1
+
+    livro: 11
+nome: Clínica Ansiedade
+preco: 35.00
+url: https://go.hotmart.com/F81979157M?dp=1
+
+    livro: 12
+nome: Como lidar com ansiedade
+preco: 59.90
+url: https://go.hotmart.com/J81978742G?dp=1
+
+    livro: 13
+nome: curso: Depressão e ansiedade Infantil
+preco: 149.00
+url: https://go.hotmart.com/F81978539E?dp=1
+
+    livro: 14
+nome: Depressão e Ansiedade
+preco: 30.69
+url: https://go.hotmart.com/I81978756L?dp=1
+
+    livro: 15
+nome: Derrotando a Ansiedade
+preco: 20.00
+url: https://go.hotmart.com/D81978697T?dp=1
+
+    livro: 16
+nome: Desvendando a Ansiedade
+preco: 14.90
+url: https://go.hotmart.com/U81978303E?dp=1
+
+    livro: 17
+nome: E-book Conhecendo a Ansiedade
+preco: 10.00
+url: https://go.hotmart.com/Q81978411F?dp=1
+
+    livro: 18
+nome: E-Book Ansiedade na Prática
+preco: 24.00
+url: https://go.hotmart.com/V81978391S?dp=1
+
+    livro: 19
+nome: E-Book Oficina das Emoções
+preco: 130.00
+url: https://go.hotmart.com/J81978584J?dp=1
+
+    livro: 20
+nome: Forjados no Fogo
+preco: 47.00
+url: https://go.hotmart.com/N81979112D?dp=1
+
+    livro: 21
+nome: Introdução aos Transtornos de Ansiedade pela perspectiva da TCC
+preco: 60.00
+url: https://go.hotmart.com/P81978474F?dp=1
+
+    livro: 22
+nome: Liberte-se da ansiedade e depressão
+preco: 29.90
+url: https://go.hotmart.com/M81979019C?dp=1
+
+    livro: 23
+nome: Mimi e a Ansiedade
+preco: 14.00
+url: https://go.hotmart.com/Y81978402C?dp=1
+
+    livro: 24
+nome: O porquê da Ansiedade?
+preco: 17.00
+url: https://go.hotmart.com/G81978322L?dp=1
+
+    livro: 25
+nome: Reprogramação cerebral para acabar com ansiedade
+preco: 97.00
+url: https://go.hotmart.com/L81979044R?dp=1
+
+    livro: 26
+nome: SaiAnsi Livre-se da ansiedade
+preco: 47.00
+url: https://go.hotmart.com/K82093845W?dp=1
+
+    livro: 27
+nome: Superando a Ansiedade e Depressão
+preco: 29.90
+url: https://go.hotmart.com/I82094020X?ap=5a9b
+
+    livro: 28
+nome: Vencendo a Ansiedade
+preco:37.90
+url: https://go.hotmart.com/D81978834F?dp=1

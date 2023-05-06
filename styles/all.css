@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+
+@import  url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;400;500;700;900&display=swap' );
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+:root{
+    --font01: 'Lato', sans-serif;
+    --font02: 'Fraunces';
+    --body-bg: #e3e2e2;
+    --body-color1: #555;
+    --body-color2: #000000;
+    --shadow: #1c28642d;
+    --hotmart-bg: #e2e2e2;
+}
+.dark_mode:root{
+    --body-bg: #263238 !important;
+    --body-color1: #d4dde3 !important;
+    --body-color2: #ffffff !important;
+    --shadow: #bfc7ed41;
+    --hotmart-bg: #FAFAFA;
+}
+.dark_mode .moon{
+    display: block !important;
+}
+.dark_mode .sun{
+    display: none !important;
+}
+.moon{
+    display: none;
+}
+.material-symbols-outlined{
+    color: var(--body-color2);
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    background-color: var(--body-bg);
+    font-family: var(--font01);
+    transition: all 0.5s;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--body-bg);
+    box-shadow: 0px 5px 8px var(--shadow);
+    z-index: 1;
+}
+header img{
+    background-color: var(--hotmart-bg);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+main{
+    width: 100%;
+}
+section.section_livros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.title_princ{
+    color: var(--body-color2);
+}
+figure{
+    width: 40%;
+    min-width: 138px;
+    max-width: 320px;
+    margin: 15px 5px;
+    box-shadow: 0px 0px 15px var(--shadow);
+    border-radius: 8px;
+    overflow: hidden;
+}
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    position: relative;
+    bottom: 0px;
+    background-color: var(--body-bg);
+    text-align: center;
+    margin-top: -8px;
+}
+figcaption > a{
+    text-decoration: none;
+    transition: all .3s;
+}
+figcaption > a:hover{
+    color: var(--body-color2);
+    text-decoration: underline;
+}
+figcaption h4{
+    color: var(--body-color1);
+    padding: 10px;
+}
+figcaption h3{
+    color: var(--body-color2);
+    font-family: var(--font02);
+    padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--body-bg);
+    color: var(--body-color2);
+    text-align: center;
+    line-height: 1.5em;
+    padding: 30px;
+    box-shadow: 0px -7px 12px var(--shadow);
+}
+footer p,  footer h2{
+    max-width: 600px;
+    margin: 10px auto;
+}
+footer a{
+    color: var(--body-color2);
+    text-decoration: none;
+}
+footer a::before{
+    content: '\00A0\1F517\00A0';
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media  screen and (max-width: 768px) {
+    body{
+        font-size: 1em;
+    }
+    header{
+        height: 60px;
+        padding: 0px 15px;
+    }
+    .title_princ{
+        font-size: 1.1em;
+    }
+    header h1.h1_table{
+        display: none;
+    }
+    section.section_livros{
+        padding-top: 80px;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        font-size: 1.2em;
+    }
+    header{
+        height: 80px;
+        padding: 0px 30px;
+    }
+    header img{
+        width: 180px;
+    }
+    .title_princ{
+        font-size: 1.5em;
+    }
+    header h1.h1_table{
+        display: block;
+    }
+    header h1.h1_mobile{
+        display: none;
+    }
+    section.section_livros{
+        padding-top: 100px;
+    }
+    footer h2{
+        font-size: 1.4em;
+    }
+    footer p {
+        font-size: .9em;
+    }
+
+}
+@media  screen and (min-width: 992px) {
+    body{
+        font-size: 1.3em;
+    }
+    header{
+        height: 80px;
+        padding: 0px 50px;
+    }
+    header img{
+        width: 180px;
+    }
+    .title_princ{
+        font-size: 2em;
+    }
+    header h1.h1_table{
+        display: block;
+    }
+    header h1.h1_mobile{
+        display: none;
+    }
+    section.section_livros{
+        padding-top: 100px;
+    }
+    footer h2{
+        font-size: 1.4em;
+    }
+    footer p {
+        font-size: .9em;
+    }
+}
