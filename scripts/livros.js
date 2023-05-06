@@ -45,7 +45,7 @@ livros.map((livro)=>{
     let ancora=document.createElement("a")
     ancora.setAttribute('href',livro.url)
     ancora.setAttribute('alt',livro.nome)
-    ancora.setAttribute('target','_blank')
+    ancora.setAttribute('target','_self')
     ancora.appendChild(h4)
     ancora.appendChild(h3)
     let figcaption=document.createElement("figcaption")
