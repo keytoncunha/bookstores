@@ -6,6 +6,12 @@ body{
 header{
     height: 60px;
 }
+header img{
+    width: 160px;
+}
+header h1{
+    font-size: 1.6rem;
+}
 .conteinerBook{
     grid-template-columns: auto auto auto auto auto auto;
     gap: 30px;

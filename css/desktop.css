@@ -6,6 +6,12 @@ body{
 header{
     height: 70px;
 }
+header img{
+    width: 180px;
+}
+header h1{
+    font-size: 2.1rem;
+}
 .conteinerText p{
     font-size: 1.3rem;
     margin-top: 10px;
