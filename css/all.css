@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffffc2;
+    z-index: 1;
+}
+header .conteiner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header img{
+    width: 150px;
+}
+
+
+.conteiner{
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.secao01{
+    background: #fefefe url('../imgs/bcMobile01.jpg') center center no-repeat fixed;
+    background-size: cover;
+    padding-top: 50px;
+}
+.conteinerText{
+    background-color: #ffffffc2;
+    color: #050505;
+    padding: 20px 0px;
+}
+.conteinerText h2{
+    font-size: 1.8rem;
+}
+.conteinerText p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.conteinerBook{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.figure01, .figure03, .figure05, .figure07, .figure09{
+    grid-column: 1/3;
+}
+.figure02, .figure04, .figure06, .figure08, .figure10{
+    grid-column: 3/5;
+}
+img{
+    width: 100%;
+    transform: scale(1);
+}
+figure{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px #00000077;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+figcaption a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    transition: .2s;
+}
+figcaption h4{
+    color: red;
+    font-size: 1.5rem;
+    transition: .2s;
+}
+figcaption:hover h4{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+figcaption .estrelas{
+    font-size: .8rem;
+    text-align: right;
+}
+figcaption .estrelas i{
+    color: yellow;
+    font-size: 1rem;
+    text-shadow: 0px 0px 7px #000;
+    transition: .2s;
+}
+figcaption:hover .estrelas i{
+    transform: scale(1.3);
+}
+
+/* SECAO02 */
+.secao02{
+    background: #fefefe url('../imgs/bcMobile02.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+.figure11, .figure13, .figure15, .figure17, .figure19{
+    grid-column: 1/3;
+}
+.figure12, .figure14, .figure16, .figure18, .figure20{
+    grid-column: 3/5;
+}
+
+/* SECAO03 */
+.secao03{
+    background: #fefefe url('../imgs/bcMobile03.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+.figure21, .figure23, .figure25, .figure27{
+    grid-column: 1/3;
+}
+.figure22, .figure24, .figure26, .figure28{
+    grid-column: 3/5;
+}
+
+/*  FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefefe;
+    color: #111111;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 30px;
+    box-shadow: 0px -7px 12px var(--shadow);
+}
+footer p,  footer h2{
+    max-width: 600px;
+    margin: 10px auto;
+}
+footer a{
+    color: var(--body-color2);
+    text-decoration: none;
+}
+footer a::before{
+    content: '\00A0\1F517\00A0';
+}
+footer a:hover{
+    text-decoration: underline;
+}

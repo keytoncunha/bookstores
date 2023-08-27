@@ -1,0 +1,69 @@
+/* DESKTOP */
+
+body{
+    font-size: 1.3rem;
+}
+header{
+    height: 70px;
+}
+.conteinerText p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.conteinerBook{
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* SECAO01 */
+.secao01{
+    background-image: url('../imgs/bcDesktop01.jpg');
+    padding-top: 70px;
+}
+.figure01, .figure05{
+    grid-column: 1/3;
+}
+.figure02, .figure06, .figure09{
+    grid-column: 3/5;
+}
+.figure03, .figure07, .figure10{
+    grid-column: 5/7;
+}
+.figure04, .figure08{
+    grid-column: 7/9;
+}
+
+/* SECAO02 */
+.secao02{
+    background-image: url('../imgs/bcDesktop02.jpg');
+}
+.figure11, .figure15{
+    grid-column: 1/3;
+}
+.figure12, .figure16, .figure19{
+    grid-column: 3/5;
+}
+.figure13, .figure17, .figure20{
+    grid-column: 5/7;
+}
+.figure14, .figure18{
+    grid-column: 7/9;
+}
+/* SECAO03 */
+.secao03{
+    background-image: url('../imgs/bcDesktop03.jpg');
+}
+.figure21, .figure25{
+    grid-column: 1/3;
+}
+.figure22, .figure26{
+    grid-column: 3/5;
+}
+.figure23, .figure27{
+    grid-column: 5/7;
+}
+.figure24, .figure28{
+    grid-column: 7/9;
+}

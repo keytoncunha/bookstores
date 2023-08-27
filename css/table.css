@@ -1,0 +1,64 @@
+/* TABLE */
+
+body{
+    font-size: 1.2rem;
+}
+header{
+    height: 60px;
+}
+.conteinerBook{
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* SECAO01 */
+.secao01{
+    background-image: url('../imgs/bcTable01.jpg');
+    padding-top: 60px;
+}
+.figure01, .figure04, .figure07{
+    grid-column: 1/3;
+}
+.figure02, .figure05, .figure08, .figure10{
+    grid-column: 3/5;
+}
+.figure03, .figure06, .figure09{
+    grid-column: 5/7;
+}
+
+
+/* SECAO02 */
+.secao02{
+    background-image: url('../imgs/bcTable02.jpg');
+}
+.figure11, .figure14, .figure17{
+    grid-column: 1/3;
+}
+.figure12, .figure15, .figure18, .figure20{
+    grid-column: 3/5;
+}
+.figure13, .figure16, .figure19{
+    grid-column: 5/7;
+}
+
+/* SECAO03 */
+.secao03{
+    background-image: url('../imgs/bcTable03.jpg');
+}
+.figure21, .figure24{
+    grid-column: 1/3;
+}
+.figure22, .figure25{
+    grid-column: 3/5;
+}
+.figure23, .figure26{
+    grid-column: 5/7;
+}
+.figure27{
+    grid-column: 2/4;
+}
+.figure28{
+    grid-column: 4/6;
+}

@@ -3,42 +3,576 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HotMart Livros</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Book Stores</title>
     <link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/all.css">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SCK7WF4MC3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-SCK7WF4MC3');
-    </script>
+    <link rel="stylesheet" href="./css/all.css" media="all">
+    <link rel="stylesheet" href="./css/table.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 993px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
-        <img src="./imgs/hot_mart.svg" alt="logo hotmart">
-        <h1 class="h1_mobile title_princ">Books</h1>
-        <h1 class="h1_table title_princ">Books e E-Books</h1>
-        <div class="mode">
-            <input type="checkbox" id="check">
-            <label for="check">
-                <span class="material-symbols-outlined sun">
-                    light_mode
-                </span>
-                <span class="material-symbols-outlined moon">
-                    dark_mode
-                </span>
-            </label>
+        <div class="conteiner">
+            <img src="./imgs/hot_mart.svg" alt="logo hotmart">
+            <h1 class="h1_table title_princ">Book Stores</h1>
         </div>
     </header>
     <main>
-        <section class="section_livros">
+        <section class="secao secao01">
+            <div class="conteinerText">
+                <div class="conteiner">
+                    <h2>
+                        Descubra um mundo de conhecimento em nossa loja Online de Livros
+                    </h2>
+                    <p>
+                        Facilidade de compra: Com apenas alguns cliques, você pode encomendar seus livros favoritos e convidados-los na comodidade da sua casa. Navegue, escolha e compre sem complicações!
+                    </p>
+                </div>
+            </div>
+            <div class="conteiner">
+                <div class="conteinerBook">
+                    <figure class="figure01">
+                        <img src="./imgs/img_lvr01.jpg" alt="livro01">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/V81979249K">
+                                <h3>Controlando a ansiedade</h3>
+                                <h4>R$ 79,90</h4>
+                                <div class="estrelas">
+                                    <p>200 vendido | 4.8 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure02">
+                        <img src="./imgs/img_lvr02.jpg" alt="livro02">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/X81978790Q?dp=1">
+                                <h3>Ansiedade e eu</h3>
+                                <h4>R$ 37,00</h4>
+                                <div class="estrelas">
+                                    <p>140 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure03">
+                        <img src="./imgs/img_lvr03.jpg" alt="livro03">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/F82093824V?dp=1">
+                                <h3>A Luta do Luto</h3>
+                                <h4>R$ 39,99</h4>
+                                <div class="estrelas">
+                                    <p>57 vendido | 4.1 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure04">
+                        <img src="./imgs/img_lvr04.jpg" alt="livro04">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/X81978654V?dp=1">
+                                <h3>Ansiedade</h3>
+                                <h4>R$ 80,00</h4>
+                                <div class="estrelas">
+                                    <p>11 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure05">
+                        <img src="./imgs/img_lvr05.jpg" alt="livro05">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/G81978772I?dp=1">
+                                <h3>Ansiedade ao Limite</h3>
+                                <h4>R$ 19,90</h4>
+                                <div class="estrelas">
+                                    <p>27 vendido | 4.6 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure06">
+                        <img src="./imgs/img_lvr06.jpg" alt="livro06">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/S81978950U">
+                                <h3>Ansiedade e a Bíblia - O que as escrituras nos ensinam sobre a ansiedade</h3>
+                                <h4>R$ 24,90</h4>
+                                <div class="estrelas">
+                                    <p>49 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure07">
+                        <img src="./imgs/img_lvr07.jpg" alt="livro07">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/T81979193X?dp=1">
+                                <h3>Ansiedade e Depressão</h3>
+                                <h4>R$ 14,50</h4>
+                                <div class="estrelas">
+                                    <p>121 vendido | 4.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure08">
+                        <img src="./imgs/img_lvr08.jpg" alt="livro08">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/T81978371M?dp=1">
+                                <h3>Ansiedade Infantil</h3>
+                                <h4>R$ 24,90</h4>
+                                <div class="estrelas">
+                                    <p>32 vendido | 4.8 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure09">
+                        <img src="./imgs/img_lvr09.jpg" alt="livro09">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/G81978528O?dp=1">
+                                <h3>Ansiedade Infantil - A caixa da preocupação</h3>
+                                <h4>R$ 39,90</h4>
+                                <div class="estrelas">
+                                    <p>07 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure10">
+                        <img src="./imgs/img_lvr10.jpg" alt="livro10">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/P81979176H?dp=1">
+                                <h3>Ansiedade sem Crises</h3>
+                                <h4>R$ 29,90</h4>
+                                <div class="estrelas">
+                                    <p>13 vendido | 4.5 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </section>
+
+        <section class="secao secao02">
+            <div class="conteinerText">
+                <div class="conteiner">
+                    <h2>
+                        Aqui estão alguns motivos para você amar nossa Loja Online de Livros:
+                    </h2>
+                    <p>
+                        Descontos e ofertas especiais: Regularmente, oferecemos descontos exclusivos e promoções emocionantes. Fique de olho nas nossas ofertas para economizar ainda mais!
+                    </p>
+                </div>
+            </div>
+            <div class="conteiner">
+                <div class="conteinerBook">
+                    <figure class="figure11">
+                        <img src="./imgs/img_lvr11.jpg" alt="livro11">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/F81979157M?dp=1">
+                                <h3>Clínica de Ansiedade</h3>
+                                <h4>R$ 35,00</h4>
+                                <div class="estrelas">
+                                    <p>66 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure12">
+                        <img src="./imgs/img_lvr12.jpg" alt="livro12">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/J81978742G?dp=1">
+                                <h3>Como lidar com ansiedade</h3>
+                                <h4>R$ 59,90</h4>
+                                <div class="estrelas">
+                                    <p>81 vendido | 4.7 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure13">
+                        <img src="./imgs/img_lvr13.jpg" alt="livro13">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/F81978539E?dp=1">
+                                <h3>Curso: Depressão e Ansiedade Infantil</h3>
+                                <h4>R$ 149,00</h4>
+                                <div class="estrelas">
+                                    <p>217 vendido | 4.9 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure14">
+                        <img src="./imgs/img_lvr14.jpg" alt="livro14">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/I81978756L?dp=1">
+                                <h3>Depressão e Ansiedade</h3>
+                                <h4>R$ 30,69</h4>
+                                <div class="estrelas">
+                                    <p>01 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure15">
+                        <img src="./imgs/img_lvr15.jpg" alt="livro15">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/D81978697T?dp=1">
+                                <h3>Derrotando a Ansiedade</h3>
+                                <h4>R$ 20,00</h4>
+                                <div class="estrelas">
+                                    <p>27 vendido | 4.1 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure16">
+                        <img src="./imgs/img_lvr16.jpg" alt="livro16">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/U81978303E?dp=1">
+                                <h3>Desvendando a Ansiedade</h3>
+                                <h4>R$ 14,90</h4>
+                                <div class="estrelas">
+                                    <p>32 vendido | 3.5 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure17">
+                        <img src="./imgs/img_lvr17.jpg" alt="livro17">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/Q81978411F?dp=1">
+                                <h3>E-book Conhecendo a Ansiedade</h3>
+                                <h4>R$ 10,00</h4>
+                                <div class="estrelas">
+                                    <p>317 vendido | 4.5 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure18">
+                        <img src="./imgs/img_lvr18.jpg" alt="livro18">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/V81978391S?dp=1">
+                                <h3>E-book Ansiedade na Práttica</h3>
+                                <h4>R$ 24,00</h4>
+                                <div class="estrelas">
+                                    <p>51 vendido | 4.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure19">
+                        <img src="./imgs/img_lvr19.jpg" alt="livro19">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/J81978584J?dp=1">
+                                <h3>E-book Oficina das Emoções</h3>
+                                <h4>R$ 130,00</h4>
+                                <div class="estrelas">
+                                    <p>92 vendido | 4.4 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure20">
+                        <img src="./imgs/img_lvr20.jpg" alt="livro20">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/N81979112D?dp=1">
+                                <h3>Forjados no Fogo</h3>
+                                <h4>R$ 47,00</h4>
+                                <div class="estrelas">
+                                    <p>35 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao secao03">
+            <div class="conteinerText">
+                <div class="conteiner">
+                    <h2>
+                        Visite nosso site agora mesmo e mergulhe no maravilhoso universo da leitura!
+                    </h2>
+                    <p>
+                        Deixe a imaginação voar com a nossa Loja Online de Livros. Não perca tempo, adquira já seus novos tesouros literários!
+                    </p>
+                </div>
+            </div>
+            <div class="conteiner">
+                <div class="conteinerBook">
+                    <figure class="figure21">
+                        <img src="./imgs/img_lvr21.jpg" alt="livro21">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/P81978474F?dp=1">
+                                <h3>Introdução aos Transtornos de ansiedade pela perspectiva da TCC</h3>
+                                <h4>R$ 60,00</h4>
+                                <div class="estrelas">
+                                    <p>36 vendido | 4.5 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure22">
+                        <img src="./imgs/img_lvr22.jpg" alt="livro22">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/M81979019C?dp=1">
+                                <h3>Liberte-se da Ansiedade e Depressão</h3>
+                                <h4>R$ 29,90</h4>
+                                <div class="estrelas">
+                                    <p>67 vendido | 4.2 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure23">
+                        <img src="./imgs/img_lvr23.jpg" alt="livro23">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/Y81978402C?dp=1">
+                                <h3>Mimi e a Ansiedade</h3>
+                                <h4>R$ 14,00</h4>
+                                <div class="estrelas">
+                                    <p>0 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure24">
+                        <img src="./imgs/img_lvr24.jpg" alt="livro24">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/G81978322L?dp=1">
+                                <h3>O porquê da Ansiedade?</h3>
+                                <h4>R$ 17,00</h4>
+                                <div class="estrelas">
+                                    <p>08 vendido | 4.9 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure25">
+                        <img src="./imgs/img_lvr25.jpg" alt="livro25">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/L81979044R?dp=1">
+                                <h3>Reprogramação cerebral para acabar com ansiedade</h3>
+                                <h4>R$ 97,00</h4>
+                                <div class="estrelas">
+                                    <p>81 vendido | 4.3 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure26">
+                        <img src="./imgs/img_lvr26.jpg" alt="livro26">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/K82093845W?dp=1">
+                                <h3>SaiAnsi Livre-se da Ansiedade</h3>
+                                <h4>R$ 47,00</h4>
+                                <div class="estrelas">
+                                    <p>54 vendido | 4.8 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure27">
+                        <img src="./imgs/img_lvr27.jpg" alt="livro27">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/I82094020X?ap=5a9b">
+                                <h3>Superando a Ansiedade e Depressão</h3>
+                                <h4>R$ 29,90</h4>
+                                <div class="estrelas">
+                                    <p>24 vendido | 5.0 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="figure28">
+                        <img src="./imgs/img_lvr28.jpg" alt="livro28">
+                        <figcaption>
+                            <a href="https://go.hotmart.com/D81978834F?dp=1">
+                                <h3>Vencendo a Ansiedade</h3>
+                                <h4>R$ 37,90</h4>
+                                <div class="estrelas">
+                                    <p>04 vendido | 4.8 
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </p>
+                                </div>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
+    
     <footer>
         <h2>Sobre</h2>
         <p>
@@ -49,11 +583,9 @@
             Desenvolvido por <a href="https://keyton.dev.br/" target="_blank"><strong>Keyton Dev.</strong></a> Profissional na área de desenvolvimento Web.
         </p>
         <p style="font-variant: small-caps">
-            &copy; 2023 - Todos os direitos reservados.
+            &copy; 2023 | Todos os direitos reservados.
         </p>
 
     </footer>
-
-    <script src="./scripts/livros.js"></script>
 </body>
 </html>
